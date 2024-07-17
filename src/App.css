@@ -1,0 +1,396 @@
+.appcontainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.appbody {
+  margin: 40px;
+  margin-top: 80px; 
+  background-color: antiquewhite;
+  flex: 1;
+  overflow-y: auto; 
+  border-radius: 10px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #262323;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+  width: 100%;
+  opacity: 100%;
+}
+
+.navbarlinks ul {
+  display: flex;
+  margin-left: 300px;
+  padding-right: 0px;
+}
+
+.navbarlinks li {
+  font-size: medium;
+  font-weight: 500;
+  list-style: none;
+  margin-right: 25px;
+}
+
+.navbarlinks li a {
+  text-decoration: none;
+  color: antiquewhite;
+  letter-spacing: 0.5px;
+}
+
+.navbarlinks li a:hover {
+  background-color: grey;
+  color: antiquewhite;
+  border-radius: 4px;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 6px;
+}
+
+.footer {
+  background-color: #262323;
+  color: white;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  bottom: 0%;
+}
+
+.footer h4 {
+  margin-bottom: 1rem;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  margin-bottom: 0.5rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footersection {
+  padding-right: 60px;
+  margin: 1rem;
+}
+
+.headlinecontainer{
+  position: relative;
+  width: 100%; 
+  height: auto; 
+}
+
+.image5 {
+  max-height: 500px;
+  min-width: 100%;
+}
+
+.listpropertyheadline {
+  position: absolute;
+  top: 20%; 
+  left: 30%; 
+  transform: translate(-20%, -30%); 
+  color: rgb(63, 37, 5); 
+  padding: 40px; 
+  text-align: center; 
+  font-size: 40px; 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ctalisting {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff9800; 
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.ctalisting .icon {
+  margin-left: 8px;
+}
+
+.ctalisting:hover {
+  background-color: rgb(127, 48, 29); 
+}
+
+.listingheadline1 {
+  font-size: large;
+  padding-top: 10px;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(63, 37, 5); 
+}
+
+.howweroll {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  background-color: antiquewhite;
+  position: relative;
+  padding: 20px;
+}
+
+.backgroundtext1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  text-align: center;
+  z-index: 0;
+}
+
+.backgroundline {
+  font-size: 64px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.howweroll h2 {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(63, 37, 5); 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.howweroll h2 i {
+  margin-right: 10px;
+}
+
+.howweroll p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.icon {
+  color: brown;
+  padding-right: 10px;
+}
+
+.howitworks {
+  display: grid;
+  grid-column: auto;
+  text-align: justify;
+  background-color: antiquewhite;
+  position: relative;
+}
+
+.howitworks h2 {
+  font-size: 20px;
+  display: flex;
+  color: rgb(63, 37, 5); 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.listingheadline2 {
+  font-size: large;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(63, 37, 5); 
+}
+
+.listsection {
+  padding-right: 200px;
+  padding-left: 40px;
+  width: 30%;
+}
+
+.backgroundtext2 {
+  position: absolute;
+  top: 20%;
+  left: 78%;
+  transform: translate(-10%, -20%);
+  text-align: center;
+  z-index: 0;
+}
+
+.backgroundline2 {
+  font-size: 84px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.howitworks p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.lines {
+  position: absolute;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+.line {
+  width: 300px;
+  height: 20px;
+  margin: 10px 0;
+  position: relative;
+  background-color: rgb(175, 89, 89);
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.line-number {
+  position: absolute;
+  right: -35px;
+  top: -25px;
+  font-size: 54px;
+  font-family: "YourFontFamily", sans-serif; 
+  color: brown;
+  font-weight: bold;
+}
+
+.line::before {
+  content: '';
+  display: block;
+  height: 20px;
+  background-color: brown;
+  opacity: 0;
+}
+
+.line-1 {
+  top: 260px;
+}
+
+.line-1::before {
+  width: calc(100% / 6);
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.line-2 {
+  top: 280px;
+}
+
+.line-2::before {
+  width: calc(2 * (100% / 6));
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.line-3 {
+  top: 320px;
+}
+
+.line-3::before {
+  width: calc(3 * (100% / 6));
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.line-4 {
+  top: 350px;
+}
+
+.line-4::before {
+  width: calc(4 * (100% / 6));
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.line-5 {
+  top: 370px;
+}
+
+.line-5::before {
+  width: calc(5 * (100% / 6));
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.line-6 {
+  top: 400px;
+}
+
+.line-6::before {
+  width: 100%;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+.contactus h2 {
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(63, 37, 5); 
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.contactoptions {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+
+}
+
+.contactcard {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  width: 20%;
+  box-shadow: 0 4px 8px rgba(17, 204, 207, 0.1);
+}
+
+.contacticon {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: brown;
+}
+
+.contactcard h3 {
+  margin: 10px 0;
+}
+
+.contactcard p {
+  margin: 10px 0;
+}
+
+.contactcard a {
+  color: brown;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.separator {
+  width: 100%;
+  height: 8px;
+  background-color: aqua;
+  margin: 40px 0;
+  opacity: 20%;
+}
+
