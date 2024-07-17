@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/yourrepository/static/css/main.ec84b052.css",
-    "main.js": "/yourrepository/static/js/main.7511e40f.js",
-    "static/js/453.3504ef7b.chunk.js": "/yourrepository/static/js/453.3504ef7b.chunk.js",
-    "static/media/image1.jpg": "/yourrepository/static/media/image1.acd7838c23b33effbd4c.jpg",
-    "static/media/image5.jpg": "/yourrepository/static/media/image5.c6d4c07a33906d7190ac.jpg",
-    "index.html": "/yourrepository/index.html",
-    "main.ec84b052.css.map": "/yourrepository/static/css/main.ec84b052.css.map",
-    "main.7511e40f.js.map": "/yourrepository/static/js/main.7511e40f.js.map",
-    "453.3504ef7b.chunk.js.map": "/yourrepository/static/js/453.3504ef7b.chunk.js.map"
+    "main.css": "/urbanwise/static/css/main.ec84b052.css",
+    "main.js": "/urbanwise/static/js/main.9e025bab.js",
+    "static/js/453.3504ef7b.chunk.js": "/urbanwise/static/js/453.3504ef7b.chunk.js",
+    "static/media/image1.jpg": "/urbanwise/static/media/image1.acd7838c23b33effbd4c.jpg",
+    "static/media/image5.jpg": "/urbanwise/static/media/image5.c6d4c07a33906d7190ac.jpg",
+    "index.html": "/urbanwise/index.html",
+    "main.ec84b052.css.map": "/urbanwise/static/css/main.ec84b052.css.map",
+    "main.9e025bab.js.map": "/urbanwise/static/js/main.9e025bab.js.map",
+    "453.3504ef7b.chunk.js.map": "/urbanwise/static/js/453.3504ef7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ec84b052.css",
-    "static/js/main.7511e40f.js"
+    "static/js/main.9e025bab.js"
   ]
 }
