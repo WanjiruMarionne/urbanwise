@@ -1,13 +1,13 @@
 import React from 'react';
-import image5 from './images/image5.jpg'
+import image6 from './images/image6.jpeg'
 import { FaCircleArrowRight } from "react-icons/fa6";
 
 function AboutUs() {
   return (
     <div>
       <div className='headlinecontainer'>
-        <img className='image5' src={image5} alt='image5'></img>
-        <h1 className='listpropertyheadline'>About Us</h1>
+        <img className='image6' src={image6} alt='image6'></img>
+        <h1 className='aboutheadline'>About Us</h1>
         <a className='ctalisting' href='https://wa.me/254727662910' target='_blank' rel='noopener noreferrer'>
           Contact Us <FaCircleArrowRight className='icon' />
         </a>
