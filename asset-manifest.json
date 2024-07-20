@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/urbanwise/static/css/main.d1f82dc4.css",
-    "main.js": "/urbanwise/static/js/main.eee35d6d.js",
+    "main.css": "/urbanwise/static/css/main.b21cb57d.css",
+    "main.js": "/urbanwise/static/js/main.c17e1c3c.js",
     "static/js/453.3504ef7b.chunk.js": "/urbanwise/static/js/453.3504ef7b.chunk.js",
     "static/media/image5.jpg": "/urbanwise/static/media/image5.c6d4c07a33906d7190ac.jpg",
+    "static/media/image11.jpeg": "/urbanwise/static/media/image11.d044fec5ae47ac4e98fd.jpeg",
+    "static/media/image7.jpeg": "/urbanwise/static/media/image7.2cb007bf4c596d6fb814.jpeg",
+    "static/media/image6.jpeg": "/urbanwise/static/media/image6.f75ae54358606155b50c.jpeg",
+    "static/media/image10.jpeg": "/urbanwise/static/media/image10.5771fd3b10049dbdef54.jpeg",
+    "static/media/image9.jpeg": "/urbanwise/static/media/image9.48feb15688ca69c8b2ff.jpeg",
+    "static/media/image8.jpeg": "/urbanwise/static/media/image8.606d8d825e5464e417b0.jpeg",
     "index.html": "/urbanwise/index.html",
-    "main.d1f82dc4.css.map": "/urbanwise/static/css/main.d1f82dc4.css.map",
-    "main.eee35d6d.js.map": "/urbanwise/static/js/main.eee35d6d.js.map",
+    "main.b21cb57d.css.map": "/urbanwise/static/css/main.b21cb57d.css.map",
+    "main.c17e1c3c.js.map": "/urbanwise/static/js/main.c17e1c3c.js.map",
     "453.3504ef7b.chunk.js.map": "/urbanwise/static/js/453.3504ef7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1f82dc4.css",
-    "static/js/main.eee35d6d.js"
+    "static/css/main.b21cb57d.css",
+    "static/js/main.c17e1c3c.js"
   ]
 }
