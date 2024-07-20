@@ -28,6 +28,7 @@ function App() {
         <div className='appbody'>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/urbanwise" element={<Home />} />
             <Route path="/buy" element={<Buy />} />
             <Route path="/rent" element={<Rent />} />
             <Route path="/listproperty" element={<ListProperty />} />
